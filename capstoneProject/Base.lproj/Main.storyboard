@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,170 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="capstoneProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ic0-Ba-rFj">
-                                <rect key="frame" x="288" y="573" width="57" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="57" id="LGW-Hq-Bss"/>
-                                    <constraint firstAttribute="height" constant="46" id="cfo-DM-FHd"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="Image"/>
-                                <connections>
-                                    <segue destination="BtV-l7-oQk" kind="show" id="8VT-da-iyk"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqK-ro-nvd">
-                                <rect key="frame" x="2310" y="-38" width="381" height="445"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">We hope to give a new perspective and bring awareness on the struggles and hardships that women face everyday when doing basic tasks. Many of these scenarios are based on experiences that the creators went through. Because while being a woman is amazing, our male counterparts can make it more difficult than it has to be at times.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfj-Ej-0gd">
-                                <rect key="frame" x="46" y="153.5" width="283" height="360"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="283" id="Buf-qI-762"/>
-                                    <constraint firstAttribute="height" constant="360" id="qZI-63-zQP"/>
-                                </constraints>
-                                <string key="text">We hope to give a new perspective and bring awareness on the struggles and hardships that women face everyday when doing basic tasks. Many of these scenarios are based on experiences that the creators went through. Because while being a woman is amazing, our male counterparts can make it more difficult than it has to be at times. </string>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Jfj-Ej-0gd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3YJ-AZ-cbK"/>
-                            <constraint firstItem="ic0-Ba-rFj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="262.5" id="Eya-fT-BfD"/>
-                            <constraint firstItem="ic0-Ba-rFj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="129" id="ILL-Qh-dQG"/>
-                            <constraint firstItem="Jfj-Ej-0gd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cqK-un-ubh"/>
-                            <constraint firstItem="Jfj-Ej-0gd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pa4-nC-odr"/>
-                            <constraint firstItem="Jfj-Ej-0gd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="use-n6-8b2"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="120.8" y="115.59220389805098"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="t5Z-rj-HKC">
-            <objects>
-                <viewController id="dE3-Xq-pQ0" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="sJi-db-wB0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Tf3-25-e4K"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4DA-SQ-oql" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="900" y="116"/>
-        </scene>
-        <!--Results Controller-->
-        <scene sceneID="nXO-Hh-qoh">
-            <objects>
-                <viewController id="BtV-l7-oQk" customClass="ResultsController" customModule="capstoneProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zfh-Ij-eR4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRM-s1-VY5">
-                                <rect key="frame" x="106" y="184" width="163" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="27"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asQ-m8-1pq">
-                                <rect key="frame" x="164" y="267" width="47" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="eye"/>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="sUn-aU-WGE">
-                                <rect key="frame" x="106" y="354" width="76" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWu-wg-LPO">
-                                        <rect key="frame" x="0.0" y="0.0" width="51" height="36"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <state key="normal" title="work">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="KEe-2a-nRK" kind="show" id="lvh-fJ-ug6"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84X-pD-1Cq">
-                                        <rect key="frame" x="0.0" y="36" width="76" height="36"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <state key="normal" title="school">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="qS9-1f-199" kind="show" id="nDk-qS-IQS"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnI-bH-Q9m">
-                                        <rect key="frame" x="0.0" y="72" width="38" height="36"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <state key="normal" title="fun">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="zD9-nb-VOR" kind="show" id="NUv-3g-7Bg"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wt-r9-dc3">
-                                <rect key="frame" x="317" y="49" width="32" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="32" id="YSt-fA-DjV"/>
-                                    <constraint firstAttribute="height" constant="30" id="nba-ZP-lji"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="information"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="ccu-NO-RNl"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="-1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="ygx-mJ-vUJ">
-                                <rect key="frame" x="104" y="90" width="107" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAj-Xa-0TF">
-                                <rect key="frame" x="181" y="49" width="13" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="4Wt-r9-dc3" firstAttribute="centerX" secondItem="zfh-Ij-eR4" secondAttribute="centerX" constant="145.5" id="mvV-AF-Vhs"/>
-                            <constraint firstItem="4Wt-r9-dc3" firstAttribute="centerY" secondItem="zfh-Ij-eR4" secondAttribute="centerY" constant="-269.5" id="tjT-At-Ihp"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="pGL-EG-mwo"/>
-                    </view>
-                    <connections>
-                        <outlet property="gemText" destination="xAj-Xa-0TF" id="Z1f-6R-Ftd"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3my-Wv-onh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1668" y="116"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="pAd-BB-hBd">
             <objects>
@@ -317,9 +153,6 @@
                                     <constraint firstAttribute="height" constant="36" id="mzy-js-OaK"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="home"/>
-                                <connections>
-                                    <segue destination="BtV-l7-oQk" kind="show" id="bFU-Nr-FVw"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -358,9 +191,6 @@
                                 <rect key="frame" x="321" y="611" width="38" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home"/>
-                                <connections>
-                                    <segue destination="BtV-l7-oQk" kind="show" id="xsA-Bi-JcT"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pT4-Ji-y56">
                                 <rect key="frame" x="42.5" y="46" width="290" height="214"/>
@@ -419,9 +249,6 @@
                                     <constraint firstAttribute="height" constant="36" id="cKu-Ah-yLq"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="home"/>
-                                <connections>
-                                    <segue destination="BtV-l7-oQk" kind="show" id="gC9-wV-gw3"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -457,9 +284,6 @@
                                 <rect key="frame" x="321" y="611" width="38" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home"/>
-                                <connections>
-                                    <segue destination="BtV-l7-oQk" kind="show" id="0k9-gU-Vlv"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsq-Xm-gGV">
                                 <rect key="frame" x="24.5" y="230" width="326" height="343"/>
@@ -517,9 +341,6 @@
                                     <constraint firstAttribute="width" constant="37" id="wU0-Pu-JyV"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="home"/>
-                                <connections>
-                                    <segue destination="BtV-l7-oQk" kind="show" id="rh0-I1-QSq"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -565,9 +386,6 @@
                                 <rect key="frame" x="321" y="611" width="38" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home"/>
-                                <connections>
-                                    <segue destination="BtV-l7-oQk" kind="show" id="2HD-6D-y8p"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8p-ac-jsn">
                                 <rect key="frame" x="19.5" y="235" width="336" height="368"/>
@@ -650,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YBx-YM-PMv" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-801" y="116"/>
+            <point key="canvasLocation" x="121" y="-699"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GtE-Cp-Q67">
@@ -704,7 +522,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YPG-mR-WP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="-699"/>
+            <point key="canvasLocation" x="900" y="-699"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2TM-gU-bRx">
@@ -796,7 +614,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jBI-iK-kLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1788" y="-651"/>
+            <point key="canvasLocation" x="1668" y="-699"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ba6-2s-X6c">
@@ -847,7 +665,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WZm-eo-53k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-895" y="864"/>
+            <point key="canvasLocation" x="113" y="40"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vpl-9V-wAK">
@@ -1337,8 +1155,7 @@
         <image name="work" width="348" height="348"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2NE-ml-svI"/>
-        <segue reference="xUA-9t-HOe"/>
-        <segue reference="xsA-Bi-JcT"/>
+        <segue reference="Z0O-El-VOF"/>
+        <segue reference="lbp-gS-r1b"/>
     </inferredMetricsTieBreakers>
 </document>
