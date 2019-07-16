@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="900" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Results Controller-->
         <scene sceneID="nXO-Hh-qoh">
             <objects>
-                <viewController id="BtV-l7-oQk" sceneMemberID="viewController">
+                <viewController id="BtV-l7-oQk" customClass="ResultsController" customModule="capstoneProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zfh-Ij-eR4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -147,18 +147,17 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ccu-NO-RNl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifa-NM-FkF">
-                                <rect key="frame" x="195" y="46" width="30" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                <state key="normal" title="x">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="-1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="ygx-mJ-vUJ">
-                                <rect key="frame" x="124" y="47" width="107" height="34"/>
+                                <rect key="frame" x="104" y="90" width="107" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAj-Xa-0TF">
+                                <rect key="frame" x="181" y="49" width="13" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -167,6 +166,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pGL-EG-mwo"/>
                     </view>
+                    <connections>
+                        <outlet property="gemText" destination="xAj-Xa-0TF" id="Z1f-6R-Ftd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3my-Wv-onh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
