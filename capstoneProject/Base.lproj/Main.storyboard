@@ -340,25 +340,52 @@
                                 <rect key="frame" x="-85" y="-30" width="587" height="726"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIe-Ry-St1">
-                                <rect key="frame" x="321" y="611" width="38" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9h-iK-cKC">
+                                <rect key="frame" x="23" y="301" width="329" height="302"/>
+                                <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="38" id="12D-4w-8cp"/>
-                                    <constraint firstAttribute="height" constant="36" id="XM0-hd-Lk6"/>
+                                    <constraint firstAttribute="width" constant="329" id="F8N-xW-Eie"/>
+                                    <constraint firstAttribute="height" constant="302" id="Xpx-xG-0X9"/>
                                 </constraints>
+                                <string key="text">According to the National Museum of Women in the Arts and a recent data survey of the permanent collections of 18 prominent art museums in the U.S. out of over ten thousand artist, 87 percent of them are male. According to the Observer, the tech industry isn’t any better; women own only five percent of startups even though they perform three times better than those with male CEOs. </string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIe-Ry-St1">
+                                <rect key="frame" x="321" y="611" width="38" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home"/>
                                 <connections>
                                     <segue destination="BtV-l7-oQk" kind="show" id="xsA-Bi-JcT"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pT4-Ji-y56">
+                                <rect key="frame" x="42.5" y="46" width="290" height="214"/>
+                                <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="XEm-dJ-mKj"/>
+                                    <constraint firstAttribute="width" constant="290" id="buM-hw-W8d"/>
+                                </constraints>
+                                <string key="text">He brings back the check for the table and writes “I hope you babes enjoyed the food 😉” You pay and leave feeling disgusted and uncomfortable, that you and your friends were treated that way; you were wanting to have a good time.</string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D9h-iK-cKC" firstAttribute="centerX" secondItem="mOV-d7-5gv" secondAttribute="centerX" id="Yvb-9s-D01"/>
+                            <constraint firstItem="D9h-iK-cKC" firstAttribute="centerY" secondItem="mOV-d7-5gv" secondAttribute="centerY" constant="118.5" id="caO-rm-asO"/>
+                            <constraint firstItem="pT4-Ji-y56" firstAttribute="centerY" secondItem="mOV-d7-5gv" secondAttribute="centerY" constant="-180.5" id="cy5-tf-ng4"/>
+                            <constraint firstItem="pT4-Ji-y56" firstAttribute="centerX" secondItem="mOV-d7-5gv" secondAttribute="centerX" id="iqM-Wa-O6B"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VCZ-sT-Yg5"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHJ-hj-9Je" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1668" y="2293"/>
+            <point key="canvasLocation" x="1668" y="2292.5037481259374"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UMp-eO-CNE">
@@ -415,25 +442,47 @@
                                 <rect key="frame" x="-149" y="-100" width="722" height="916"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfA-6T-tgY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqU-fn-RW8">
+                                <rect key="frame" x="46" y="29" width="283" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">The other members don’t let you contribute and dismiss you because you just joined. They told you that you must not know as much as they do, so everything you say doesn’t mean much. </string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfA-6T-tgY">
                                 <rect key="frame" x="321" y="611" width="38" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="hXK-L8-YtT"/>
-                                    <constraint firstAttribute="width" constant="38" id="rF4-eP-Kv1"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home"/>
                                 <connections>
                                     <segue destination="BtV-l7-oQk" kind="show" id="0k9-gU-Vlv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsq-Xm-gGV">
+                                <rect key="frame" x="24.5" y="230" width="326" height="343"/>
+                                <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="343" id="Lt3-9T-Xsu"/>
+                                    <constraint firstAttribute="width" constant="326" id="l1q-Zf-tVa"/>
+                                </constraints>
+                                <string key="text">About 74 percent of young girls express interest in STEM fields and computer science according to the Observer. However, only 28 percent of Computer Science Degrees are earned by women. Since 1991, peaking at 36 percent the rate of women in computing roles has begun to decline. According to the National Center for Women and Information Technology 49 percent of the Intel Science and Engineering Fair 2018 finalist were female.</string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xsq-Xm-gGV" firstAttribute="centerY" secondItem="4mb-ui-WV7" secondAttribute="centerY" constant="68" id="I53-ZG-221"/>
+                            <constraint firstItem="Xsq-Xm-gGV" firstAttribute="centerX" secondItem="4mb-ui-WV7" secondAttribute="centerX" id="zd6-db-phg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9SX-6c-uOy"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wwy-ar-vzv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1668" y="1567"/>
+            <point key="canvasLocation" x="1668" y="1566.5667166416792"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="haZ-Yb-M9l">
@@ -498,22 +547,46 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="0.37211157569999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yrq-sZ-6Rf">
-                                <rect key="frame" x="321" y="611" width="38" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJD-ry-bLw">
+                                <rect key="frame" x="46" y="57" width="283" height="153"/>
+                                <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="TbZ-9i-9ow"/>
-                                    <constraint firstAttribute="width" constant="38" id="U8p-nN-byR"/>
+                                    <constraint firstAttribute="height" constant="153" id="hoR-ex-Pwy"/>
+                                    <constraint firstAttribute="width" constant="283" id="yK0-K1-OUe"/>
                                 </constraints>
+                                <string key="text">Your male colleague approaches the customer and suggests making them a new meal. They immediately agree and walk away to wait for their meal. </string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yrq-sZ-6Rf">
+                                <rect key="frame" x="321" y="611" width="38" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home"/>
                                 <connections>
                                     <segue destination="BtV-l7-oQk" kind="show" id="2HD-6D-y8p"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8p-ac-jsn">
+                                <rect key="frame" x="19.5" y="235" width="336" height="368"/>
+                                <color key="backgroundColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="336" id="qMh-90-2n3"/>
+                                    <constraint firstAttribute="height" constant="368" id="sgh-Ij-ZXH"/>
+                                </constraints>
+                                <string key="text">In 2012, Women made comparatively 77.5% of what men made. Even women who work in unionized professions only make about 82% of men’s income and as women go up the pay gap get bigger, 72.3% in upper-level women executive salaries based on statistics provided by the Bureau of Labor Statistics and the U.S. Department of Labor. According to NPRs latest Survey about 38 percent of women have said to have experience sexual harassment at the workplace. 
+</string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Yrq-sZ-6Rf" firstAttribute="centerX" secondItem="9uj-Zp-kb7" secondAttribute="centerX" constant="152.5" id="niw-ko-vtd"/>
-                            <constraint firstItem="Yrq-sZ-6Rf" firstAttribute="centerY" secondItem="9uj-Zp-kb7" secondAttribute="centerY" constant="295.5" id="rHg-1K-gpL"/>
+                            <constraint firstItem="i8p-ac-jsn" firstAttribute="centerX" secondItem="9uj-Zp-kb7" secondAttribute="centerX" id="2yv-Hg-hoH"/>
+                            <constraint firstItem="i8p-ac-jsn" firstAttribute="centerY" secondItem="9uj-Zp-kb7" secondAttribute="centerY" constant="85.5" id="O9P-tv-XUW"/>
+                            <constraint firstItem="xJD-ry-bLw" firstAttribute="centerX" secondItem="9uj-Zp-kb7" secondAttribute="centerX" id="Tbr-pr-yQZ"/>
+                            <constraint firstItem="xJD-ry-bLw" firstAttribute="centerY" secondItem="9uj-Zp-kb7" secondAttribute="centerY" constant="-200" id="g6g-s0-nNY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bkf-iQ-SMx"/>
                     </view>
@@ -534,6 +607,7 @@
         <image name="work" width="348" height="348"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8VT-da-iyk"/>
+        <segue reference="NUv-3g-7Bg"/>
+        <segue reference="xsA-Bi-JcT"/>
     </inferredMetricsTieBreakers>
 </document>
