@@ -551,10 +551,10 @@
             </objects>
             <point key="canvasLocation" x="113" y="1534"/>
         </scene>
-        <!--View Controller-->
+        <!--Fun View Controller-->
         <scene sceneID="mSQ-d6-Sna">
             <objects>
-                <viewController id="T5v-kG-MYi" sceneMemberID="viewController">
+                <viewController id="T5v-kG-MYi" customClass="FunViewController" customModule="capstoneProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sa2-f4-X9j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -610,6 +610,9 @@
                                         <state key="normal" title="option1">
                                             <color key="titleColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="optionButton1:" destination="T5v-kG-MYi" eventType="touchUpInside" id="Dpd-vp-OMr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOv-VR-ggI">
                                         <rect key="frame" x="0.0" y="81" width="191" height="51"/>
@@ -622,6 +625,9 @@
                                         <state key="normal" title="option2">
                                             <color key="titleColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="optionButton2:" destination="T5v-kG-MYi" eventType="touchUpInside" id="c87-89-ujM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -641,15 +647,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nwf-vQ-LB7"/>
                     </view>
+                    <connections>
+                        <outlet property="optionButton1" destination="Bip-4a-nob" id="Ek8-Q0-baD"/>
+                        <outlet property="optionButton2" destination="aOv-VR-ggI" id="qyg-ky-gPy"/>
+                        <outlet property="scenarioLabel" destination="f3U-xv-aun" id="ems-im-LO3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHW-ap-eN3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="900" y="1533"/>
         </scene>
-        <!--View Controller-->
+        <!--School View Controller-->
         <scene sceneID="r1t-Wk-Zj5">
             <objects>
-                <viewController id="Mfw-hU-6uf" sceneMemberID="viewController">
+                <viewController id="Mfw-hU-6uf" customClass="SchoolViewController" customModule="capstoneProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3GB-P6-6g8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -705,6 +716,9 @@
                                         <state key="normal" title="option1">
                                             <color key="titleColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="optionButton1:" destination="Mfw-hU-6uf" eventType="touchUpInside" id="7dj-Qx-Bri"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jo6-jp-75f">
                                         <rect key="frame" x="0.0" y="81" width="191" height="51"/>
@@ -717,6 +731,9 @@
                                         <state key="normal" title="option2">
                                             <color key="titleColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="optionButton2:" destination="Mfw-hU-6uf" eventType="touchUpInside" id="KvD-fv-iXM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -736,15 +753,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IhP-7W-rpI"/>
                     </view>
+                    <connections>
+                        <outlet property="optionButton1" destination="KG3-Xw-Zdf" id="qgw-3J-gdK"/>
+                        <outlet property="optionButton2" destination="Jo6-jp-75f" id="Wk3-Dq-HRE"/>
+                        <outlet property="scenarioLabel" destination="Y4U-K3-FGD" id="K9w-LU-jJm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RhD-x4-KCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="900" y="796"/>
         </scene>
-        <!--View Controller-->
+        <!--Work View Controller-->
         <scene sceneID="e2n-ax-3WU">
             <objects>
-                <viewController id="QbT-o5-OsB" sceneMemberID="viewController">
+                <viewController id="QbT-o5-OsB" customClass="WorkViewController" customModule="capstoneProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SUi-lh-FaJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -801,6 +823,9 @@
                                         <state key="normal" title="option1">
                                             <color key="titleColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="option1Button:" destination="QbT-o5-OsB" eventType="touchUpInside" id="K4S-Ug-6p5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dug-n6-Odx">
                                         <rect key="frame" x="0.0" y="81" width="191" height="51"/>
@@ -813,6 +838,9 @@
                                         <state key="normal" title="option2">
                                             <color key="titleColor" red="0.79171389250000002" green="0.41063621010000001" blue="0.3325803209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="option2Button:" destination="QbT-o5-OsB" eventType="touchUpInside" id="eAs-SY-GbA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -830,6 +858,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HHa-Ub-HpQ"/>
                     </view>
+                    <connections>
+                        <outlet property="optionButton1" destination="Uc8-dE-Oxs" id="EVp-dQ-f3y"/>
+                        <outlet property="optionButton2" destination="dug-n6-Odx" id="CSK-fj-csX"/>
+                        <outlet property="scenarioLabel" destination="M0F-SR-Zc8" id="07i-mW-00d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="reT-7D-T59" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -848,6 +881,6 @@
         <image name="work" width="348" height="348"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="N53-ZK-AZA"/>
+        <segue reference="xUA-9t-HOe"/>
     </inferredMetricsTieBreakers>
 </document>
