@@ -8,10 +8,7 @@
 
 import UIKit
 
-class ResultsController: UIViewController
-{
-    var episodeCompleted: String?
-    
+class ResultsController: UIViewController {
     
     
     var  numberOfGems = 0

@@ -28,15 +28,6 @@ class FunViewController: UIViewController
         super.viewDidLoad()
         setEpisode()
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
-        if(segue.identifier == "ShowResult")
-        {
-            let controller = segue.destination as! ResultsController
-            // setting as Results Controller allows us to access data and variables in other controllers
-            controller.episodeCompleted = "fun"
-        }
-    }
     func setEpisode()
     {
         if(currentIndex<schoolEpisode.count)
@@ -45,10 +36,6 @@ class FunViewController: UIViewController
             scenarioLabel.text = currentScenario?.scenario
             optionButton1.setTitle(currentScenario?.options[0], for: .normal)
             optionButton2.setTitle(currentScenario?.options[1], for: .normal)
-        }
-        else
-        {
-            performSegue(withIdentifier: "ShowResult", sender: self)
         }
     }
     func nextEpisode()
