@@ -13,6 +13,7 @@ class ResultsController: UIViewController
     var episodeCompleted: String?
     
     
+    
     var  numberOfGems = 0
     var workQuestionsCompleted = 0
     var schoolQuestionsCompleted = 0

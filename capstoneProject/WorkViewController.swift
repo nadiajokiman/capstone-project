@@ -15,8 +15,8 @@ class WorkViewController: UIViewController
     // IB Outlet that will display Option 2
 
     let workEpisode: [episode] =
-    [episode(scenario: "You have a creepy coworker named Richard. He’s significantly bigger than you, which is intimidating, and continuously speaks down to you. ", options: ["Tell him to Stop", "Ignore It"]),
-    episode (scenario: "You go back to work and are handing out orders. You hand a customer their food and say “Have a good rest of your day” as you do to EVERY customer. He responds with a very disgusting and creepy look, and says “Have a wonderful day beautiful” to you.", options: ["Walk away into the back", "Ignore him and continue working"]),
+    [episode(scenario: "You have a creepy coworker named Richard. He’s significantly bigger which intimidates you, and continuously speaks down to you. ", options: ["Tell him to Stop", "Ignore It"]),
+    episode (scenario: "You go back to work and are handing out orders. You hand a customer their food and say “Have a good rest of your day” as you do to EVERY customer. He responds with a very disgusting and creepy look, and says Have a wonderful day beautifual.", options: ["Walk away into the back", "Ignore him and continue working"]),
     episode (scenario: "A (male) customer approaches you, complaining about how their meal was made. You suggest making them a new meal, but they only ignore you and continue complaining. ", options: ["Continue listening to their complaints", "Continue suggesting a replacement meal"])
     ]
     var currentScenario: episode?

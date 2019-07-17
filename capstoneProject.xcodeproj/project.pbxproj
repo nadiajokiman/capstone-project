@@ -13,7 +13,6 @@
 		CC20817122DE7112001B8131 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC20817022DE7112001B8131 /* ResultsController.swift */; };
 		CCCB879722DD03D8009F3635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB879622DD03D8009F3635 /* AppDelegate.swift */; };
 		CCCB879922DD03D8009F3635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB879822DD03D8009F3635 /* ViewController.swift */; };
-		CCCB879C22DD03D8009F3635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCB879A22DD03D8009F3635 /* Main.storyboard */; };
 		CCCB879F22DD03D8009F3635 /* capstoneProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCB879D22DD03D8009F3635 /* capstoneProject.xcdatamodeld */; };
 		CCCB87A122DD03D9009F3635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCB87A022DD03D9009F3635 /* Assets.xcassets */; };
 		CCCB87A422DD03D9009F3635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCB87A222DD03D9009F3635 /* LaunchScreen.storyboard */; };
@@ -27,7 +26,6 @@
 		CCCB879322DD03D8009F3635 /* capstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCB879622DD03D8009F3635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCCB879822DD03D8009F3635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCCB879B22DD03D8009F3635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCCB879E22DD03D8009F3635 /* capstoneProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = capstoneProject.xcdatamodel; sourceTree = "<group>"; };
 		CCCB87A022DD03D9009F3635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCB87A322DD03D9009F3635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				CC0ED8F822DF8B3E00DA44C6 /* WorkViewController.swift */,
 				CC0ED8FC22DF962200DA44C6 /* FunViewController.swift */,
 				CC0ED8FA22DF92BF00DA44C6 /* SchoolViewController.swift */,
-				CCCB879A22DD03D8009F3635 /* Main.storyboard */,
 				CC20817022DE7112001B8131 /* ResultsController.swift */,
 				CCCB87A022DD03D9009F3635 /* Assets.xcassets */,
 				CCCB87A222DD03D9009F3635 /* LaunchScreen.storyboard */,
@@ -139,7 +136,6 @@
 			files = (
 				CCCB87A422DD03D9009F3635 /* LaunchScreen.storyboard in Resources */,
 				CCCB87A122DD03D9009F3635 /* Assets.xcassets in Resources */,
-				CCCB879C22DD03D8009F3635 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCCB879A22DD03D8009F3635 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCCB879B22DD03D8009F3635 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CCCB87A222DD03D9009F3635 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -303,13 +291,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 557HTKF958;
+				DEVELOPMENT_TEAM = 8V8YRVNZ3N;
 				INFOPLIST_FILE = capstoneProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nadiajokiman.gwc.capstoneProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadiajokiman.gwc.capstoneProject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,13 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 557HTKF958;
+				DEVELOPMENT_TEAM = 8V8YRVNZ3N;
 				INFOPLIST_FILE = capstoneProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nadiajokiman.gwc.capstoneProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadiajokiman.gwc.capstoneProject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
