@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC0ED8F922DF8B3E00DA44C6 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0ED8F822DF8B3E00DA44C6 /* WorkViewController.swift */; };
-		CC0ED8FB22DF92BF00DA44C6 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0ED8FA22DF92BF00DA44C6 /* SchoolViewController.swift */; };
-		CC0ED8FD22DF962200DA44C6 /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0ED8FC22DF962200DA44C6 /* FunViewController.swift */; };
 		CC20817122DE7112001B8131 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC20817022DE7112001B8131 /* ResultsController.swift */; };
 		CCCB879722DD03D8009F3635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB879622DD03D8009F3635 /* AppDelegate.swift */; };
 		CCCB879922DD03D8009F3635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB879822DD03D8009F3635 /* ViewController.swift */; };
@@ -22,9 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC0ED8F822DF8B3E00DA44C6 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
-		CC0ED8FA22DF92BF00DA44C6 /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
-		CC0ED8FC22DF962200DA44C6 /* FunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
 		CC20817022DE7112001B8131 /* ResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
 		CCCB879322DD03D8009F3635 /* capstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCB879622DD03D8009F3635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,9 +65,6 @@
 				CCCB87B222E12ACB009F3635 /* ScenarioViewController.swift */,
 				CCCB879622DD03D8009F3635 /* AppDelegate.swift */,
 				CCCB879822DD03D8009F3635 /* ViewController.swift */,
-				CC0ED8F822DF8B3E00DA44C6 /* WorkViewController.swift */,
-				CC0ED8FC22DF962200DA44C6 /* FunViewController.swift */,
-				CC0ED8FA22DF92BF00DA44C6 /* SchoolViewController.swift */,
 				CC20817022DE7112001B8131 /* ResultsController.swift */,
 				CCCB87A022DD03D9009F3635 /* Assets.xcassets */,
 				CCCB87A222DD03D9009F3635 /* LaunchScreen.storyboard */,
@@ -157,13 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC20817122DE7112001B8131 /* ResultsController.swift in Sources */,
-				CC0ED8FD22DF962200DA44C6 /* FunViewController.swift in Sources */,
 				CCCB87AE22E0DDE8009F3635 /* borderLabel.swift in Sources */,
 				CCCB87B322E12ACB009F3635 /* ScenarioViewController.swift in Sources */,
 				CCCB879922DD03D8009F3635 /* ViewController.swift in Sources */,
-				CC0ED8FB22DF92BF00DA44C6 /* SchoolViewController.swift in Sources */,
 				CCCB879722DD03D8009F3635 /* AppDelegate.swift in Sources */,
-				CC0ED8F922DF8B3E00DA44C6 /* WorkViewController.swift in Sources */,
 				CCCB879F22DD03D8009F3635 /* capstoneProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
