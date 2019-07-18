@@ -10,8 +10,10 @@ import UIKit
 
 class borderLabel: UILabel {
     
-    override func viewDidLoad() {
-    UIView.layer.borderWidth = 2.0
-    UIView.layer.borderColor = UIColor.blackColor().CGColor
-}
+    override func awakeFromNib() {
+        
+        self.layer.borderWidth = 2.0
+        self.layer.borderColor = UIColor.black.cgColor
+    }
+     
 }
