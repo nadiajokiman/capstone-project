@@ -87,7 +87,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+     
     }
+    
+   /* private func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
+        
+        let defaults = UserDefaults.standard
+        if defaults.object(forKey: "isFirstTime") == nil {
+            defaults.set("No", forKey:"isFirstTime")
+            defaults.synchronize()
+            let storyboard = UIStoryboard(name: "main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+            self.window?.rootViewController = viewController
+            self.window?.makeKeyAndVisible()
+        }
+        return true
+    }
+ */
+
+
+    
+    
 
 }
 
