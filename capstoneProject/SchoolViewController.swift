@@ -3,7 +3,7 @@ import UIKit
 
 class SchoolViewController: UIViewController
 {
-    
+    var numGems = 0
     @IBOutlet weak var scenarioLabel: UILabel!
     // IB Outlet that will display the scenario
     @IBOutlet weak var optionButton1: UIButton!
@@ -27,6 +27,19 @@ class SchoolViewController: UIViewController
         super.viewDidLoad()
         setEpisode()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if(segue.identifier == "ShowResult")
+        {
+            let controller = segue.destination as! ResultsController
+            //Setting as Results Controller allows us to acces data and variables from here in the other Controller
+            controller.episodeCompleted = "school"
+            controller.numberOfGems = numGems
+            
+        }
+    }
+    
     func setEpisode()
     {
         if(currentIndex<schoolEpisode.count)
@@ -35,6 +48,11 @@ class SchoolViewController: UIViewController
             scenarioLabel.text = currentScenario?.scenario
             optionButton1.setTitle(currentScenario?.options[0], for: .normal)
             optionButton2.setTitle(currentScenario?.options[1], for: .normal)
+        }
+        else
+        {
+            //preform sgue
+            performSegue(withIdentifier: "ShowResult", sender: self)
         }
     }
     func nextEpisode()

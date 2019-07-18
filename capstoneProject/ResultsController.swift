@@ -8,48 +8,44 @@
 
 import UIKit
 
-class ResultsController: UIViewController {
+class ResultsController: UIViewController
+{
     
-    
-    var  numberOfGems = 0
-    var workQuestionsCompleted = 0
-    var schoolQuestionsCompleted = 0
-    var funQuestionsCompleted = 0
-    
+    var episodeCompleted: String?
+    var numberOfGems: Int?
     
     
     @IBOutlet weak var gemText: UILabel!
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        
-        
-        func setWorkQuestion(){
-            gemText.text = "\(numberOfGems)"
+        setGem()
+        setResults()
+    }
+    func setGem()
+    {
+        if(episodeCompleted=="work" || episodeCompleted=="school" || episodeCompleted=="fun")
+        {
+            numberOfGems = numberOfGems+1
         }
-        
-        func completedWorkEpisode() {
-            if workQuestionsCompleted >= 3 {
-                numberOfGems += 1
-            }
-            workQuestionsCompleted = 0
+        gemText.text = "\(numberOfGems)"
+    }
+    func setResults()
+    {
+        if(episodeCompleted=="work")
+        {
+            
         }
-        
-        func completedSchoolEpisode() {
-            if schoolQuestionsCompleted >= 3 {
-                numberOfGems += 1
-            }
-            schoolQuestionsCompleted = 0
+        else if(episodeCompleted=="school")
+        {
+            
         }
-        
-        func completedFunEpisode() {
-            if funQuestionsCompleted >= 3 {
-                numberOfGems += 1
-            }
-            funQuestionsCompleted = 0
+        else
+        {
+            
         }
-        
     }
     
 }

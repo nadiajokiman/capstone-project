@@ -7,6 +7,8 @@ struct episode
 }
 class WorkViewController: UIViewController
 {
+    var numGems = 0
+    
     @IBOutlet weak var scenarioLabel: UILabel!
     // IB Outlet that will display the scenario
     @IBOutlet weak var optionButton1: UIButton!
@@ -28,6 +30,17 @@ class WorkViewController: UIViewController
     {
         super.viewDidLoad()
         setEpisode()
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if(segue.identifier == "ShowResult")
+        {
+            let controller = segue.destination as! ResultsController
+            //Setting as Results Controller allows us to acces data and variables from here in the other Controller
+            controller.episodeCompleted = "work"
+            controller.numberOfGems = numGems
+            
+        }
     }
     func setEpisode()
     {

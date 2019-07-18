@@ -3,7 +3,7 @@ import UIKit
 
 class FunViewController: UIViewController
 {
-    
+    var numGems = 0
     
     @IBOutlet weak var scenarioLabel: UILabel!
     // IB Outlet that will display the scenario
@@ -27,6 +27,17 @@ class FunViewController: UIViewController
     {
         super.viewDidLoad()
         setEpisode()
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if(segue.identifier == "ShowResult")
+        {
+            let controller = segue.destination as! ResultsController
+            //Setting as Results Controller allows us to acces data and variables from here in the other Controller
+            controller.episodeCompleted = "fun"
+            controller.numberOfGems = numGems
+            
+        }
     }
     func setEpisode()
     {
