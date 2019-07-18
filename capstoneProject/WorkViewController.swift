@@ -1,10 +1,5 @@
 import UIKit
 
-struct episode
-{
-    var scenario: String
-    var options: [String]
-}
 class WorkViewController: UIViewController
 {
     var numGems = 0

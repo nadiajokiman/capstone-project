@@ -21,17 +21,18 @@ class ResultsController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        setGem()
+        //setGem()
         setResults()
     }
-    func setGem()
+/*    func setGem()
     {
         if(episodeCompleted=="work" || episodeCompleted=="school" || episodeCompleted=="fun")
         {
             numberOfGems = numberOfGems+1
         }
-        gemText.text = "\(numberOfGems)"
+        gemText.text = "\(numberOfGems) Earned!!!!"
     }
+ */
     func setResults()
     {
         if(episodeCompleted=="work")
